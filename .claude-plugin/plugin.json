@@ -1,12 +1,12 @@
 {
   "name": "pmflow",
-  "version": "1.0.0",
-  "description": "Product Management workflows for early-career PMs. Structured frameworks for manager briefings, user interviews, PRDs, and product decisions.",
+  "version": "1.1.0",
+  "description": "Product Management workflows for early-career PMs. Structured frameworks for manager briefings, user interviews, PRDs, product decisions, storytelling, and stakeholder communication.",
   "author": {
     "name": "Pedro Menezes",
     "url": "https://github.com/pe-menezes"
   },
   "repository": "https://github.com/pe-menezes/pmflow",
   "license": "MIT",
-  "keywords": ["product-management", "pm", "prd", "user-research", "discovery", "interviews", "decisions"]
+  "keywords": ["product-management", "pm", "prd", "user-research", "discovery", "interviews", "decisions", "storytelling", "stakeholder-alignment", "communications"]
 }
