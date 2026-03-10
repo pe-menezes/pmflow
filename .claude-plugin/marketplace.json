@@ -1,0 +1,14 @@
+{
+  "name": "pmflow",
+  "owner": {
+    "name": "Pedro Menezes"
+  },
+  "plugins": [
+    {
+      "name": "pmflow",
+      "source": ".",
+      "description": "Product Management workflows for early-career PMs. Structured frameworks for manager briefings, user interviews, PRDs, product decisions, storytelling, stakeholder communication, and experimentation strategy, design, and review.",
+      "version": "1.2.0"
+    }
+  ]
+}
