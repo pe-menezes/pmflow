@@ -35,6 +35,7 @@ Ask the PM for:
 - **The goal**: What outcome does the PM need? (Approval, resources, alignment, dependency unlocked, team motivation)
 - **The timeline**: When does this need to land? Is there a specific meeting or review date?
 - **Current state**: Has anyone already heard this story? What's the starting point?
+- **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
 
 ### Step 2: Map All Audiences
 
@@ -222,6 +223,8 @@ Not all storytelling is planned. The PM will get asked about this initiative in 
 - If you're surprised-pitched (asked to present unexpectedly): use the elevator pitch, offer to follow up with the full story and documentation
 
 ### Step 8: Generate the Communications Plan
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Communications Plan: [Initiative Name]

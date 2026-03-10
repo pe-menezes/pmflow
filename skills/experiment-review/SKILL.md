@@ -27,6 +27,8 @@ Turn experiment results into real impact. Covers the post-test lifecycle: gettin
 
 ## Process
 
+Before starting, ask: **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
+
 ### Part 1: Productizing Wins
 
 #### Step 1: Get Decision-Maker Buy-In
@@ -272,6 +274,8 @@ Five qualities of a strong experimentation culture — the "5 Ps":
 **5. Perception**: The organization actively questions assumptions and seeks to close the gap between intuition and reality. Foster "hypotheticals" — alternative explanations that contradict the current thinking. Healthy skepticism toward intuition, validated through data, without personally offending anyone.
 
 ### Step 12: Generate the Experiment Review Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Experiment Review: [Initiative/Quarter Name]

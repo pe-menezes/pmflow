@@ -33,6 +33,8 @@ Check workspace for existing artifacts:
 
 If artifacts exist, pull relevant sections. If nothing exists, guide from scratch.
 
+Also ask: **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
+
 ### Step 2: Build Section by Section
 
 Walk through interactively. Challenge weak or vague answers.
@@ -97,6 +99,8 @@ Each requirement gets: priority (must-have vs. nice-to-have) and acceptance crit
 - Blocked decisions and by whom
 
 ### Step 3: Generate the Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # PRD: [Feature Name]

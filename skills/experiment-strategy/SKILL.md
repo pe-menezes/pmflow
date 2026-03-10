@@ -31,6 +31,8 @@ Most failed experiments don't fail because of bad statistics or poor test design
 
 ### Phase 1: Identify the Strategic Opportunity
 
+Before starting, ask: **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
+
 A strategic opportunity has three components: a strategy (where in the growth system), a customer problem (what's broken), and a business outcome (what improves if we fix it). All three must be defined before ideating solutions.
 
 #### Step 1: Map the Growth Model
@@ -233,6 +235,8 @@ Sequence considerations:
 - Account for resource constraints and team capacity
 
 ### Step 11: Generate the Experimentation Strategy Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Experimentation Strategy: [Initiative Name]

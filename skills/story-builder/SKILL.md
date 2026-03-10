@@ -33,6 +33,8 @@ A PM story also has two protagonists: the user and the business. Both must have 
 
 Before building the story, validate three prerequisites. If any fails, the story will be dead on arrival — no amount of narrative craft will save it.
 
+Also ask: **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
+
 **1. Is it in the interest of both the customer and the business?**
 
 Ask the PM:
@@ -209,6 +211,8 @@ Format:
 This elevator pitch is also the backbone for reactive storytelling — when the PM gets asked "What's your team working on?" in an unexpected moment.
 
 ### Step 7: Generate the Story Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Story: [Initiative Name]

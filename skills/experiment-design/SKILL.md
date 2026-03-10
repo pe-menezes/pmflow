@@ -34,6 +34,8 @@ Before using this skill, the PM should have:
 - At least one solution with a clear hypothesis
 - Defined evaluation metrics (primary, secondary, tradeoff, leading indicators)
 
+Before starting, ask: **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
+
 ## Process
 
 ### Step 1: Define Test Parameters
@@ -289,6 +291,8 @@ Most teams default to top-down iteration (fix the test design first) because it'
 - **Expand scope**: If you used a provisional solution, decide whether to test the full version, test another provisional, or shut it down.
 
 ### Step 11: Generate the Experiment Design Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Experiment: [Name]

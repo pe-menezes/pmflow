@@ -51,6 +51,7 @@ Ask the PM for:
 - **Problem hypothesis**: What problem do you believe these users have?
 - **Top 3 learning goals**: The 3 most important things you want to learn from these interviews. Every conversation must address these 3 questions. At least one should be a question that could *disprove* your hypothesis.
 - **Interview logistics**: Duration (default: 45 min)
+- **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
 
 If a manager briefing document exists in the workspace, offer to pull context from it.
 
@@ -160,6 +161,8 @@ If the PM catches themselves explaining or defending their idea, they should sto
 - Best guesses about what this person cares about (you'll probably be wrong, but having a hypothesis makes it easier to notice surprises)
 
 ### Step 6: Generate the Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Interview Guide: [Project/Feature Name]

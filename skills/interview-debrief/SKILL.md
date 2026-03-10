@@ -51,6 +51,7 @@ Ask the PM for:
 - Interview number (e.g., "3 of 6")
 - Problem hypothesis being tested
 - The top 3 learning goals for this conversation
+- **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
 
 If an interview guide exists in the workspace, use it as reference.
 
@@ -108,6 +109,8 @@ Also assess conversation quality — meta-level review of the interview itself:
 - Were there moments where the PM talked too much or slipped into pitching?
 
 ### Step 3: Generate Debrief Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Interview Debrief: [Interviewee Name/ID]
@@ -254,6 +257,8 @@ If zero interviewees made any real commitment, that's a major red flag — no ma
 - **More research**: Ambiguous findings, specific gaps to fill — but specify exactly what to learn next
 
 ### Step 3: Generate Synthesis Document
+
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Interview Synthesis: [Project Name]

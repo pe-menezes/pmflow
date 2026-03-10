@@ -32,6 +32,7 @@ Ask:
 - **What are the options?** (at least 2; help find alternatives if they only see one)
 - **What's the context?** (timeline, who's involved, stakes)
 - **What constraints exist?** (time, resources, dependencies, politics)
+- **Output format** (if they want to document the decision): What format? (docx, md, or pdf). Default: docx.
 
 If vague ("not sure what to do about onboarding"), help frame: "Sounds like the decision is: prioritize reducing drop-off at step 2 vs. improving completion at step 5. Right?"
 
@@ -76,7 +77,7 @@ Always provide a clear recommendation. Structure:
 
 ### Step 5: Decision Record (Optional)
 
-If the PM wants to document:
+If the PM wants to document, produce in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Decision: [Question]

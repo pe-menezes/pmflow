@@ -35,6 +35,7 @@ Ask the PM for basic project information:
 - Project/feature name
 - Who assigned it and why (if known)
 - Any context already available (slack messages, docs, brief descriptions)
+- **Output format**: What format for the final document? (docx, md, or pdf). Default: docx.
 
 ### Step 2: Strategic Fit — The 4 Levels
 
@@ -93,7 +94,7 @@ Walk through each level. If the PM doesn't know, mark as "hypothesis to validate
 
 ### Step 5: Generate the Document
 
-Produce a structured markdown document:
+Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
 ```
 # Manager Briefing: [Project Name]
