@@ -2,7 +2,7 @@
 
 Product Management workflows for early-career PMs, packaged as a [Claude plugin](https://docs.claude.com).
 
-10 structured skills that guide you through the core PM loop: understand the problem, validate with users, specify the solution, communicate with stakeholders, and run experiments. Each skill is an interactive workflow — it asks questions, challenges weak thinking, and produces a shareable document at the end.
+11 structured skills that guide you through the core PM loop: understand the problem, validate with users, specify the solution, communicate with stakeholders, run experiments, and analyze data. Each skill is an interactive workflow — it asks questions, challenges weak thinking, and produces a shareable document at the end.
 
 ## Skills
 
@@ -36,15 +36,21 @@ Product Management workflows for early-career PMs, packaged as a [Claude plugin]
 | Experiment Design | `/pmflow:experiment-design` | Full test lifecycle: defines parameters (baseline, MDE, sample size), plans user assignment, monitors without peeking, calls the test at significance, segments results, and plans iteration. Emphasizes statistical rigor. |
 | Experiment Review | `/pmflow:experiment-review` | Turns experiment results into real impact. Gets decision-maker buy-in, plans full vs. partial rollout, measures actual impact (holdout tests, backoff tests), communicates results, and manages the experimentation program. |
 
+### Data
+
+| Skill | Command | What it does |
+|-------|---------|-------------|
+| Data Insights | `/pmflow:data-insights` | Guides exploratory data analysis from question to insight. Helps formulate sharp data questions, load and clean data (CSV, Excel, or database), run analyses with visualizations, verify accuracy, interpret findings in context, and produce an actionable insights document. Adapts to the PM's data fluency level. |
+
 ## Recommended Flow
 
 Each skill works independently, but they connect naturally into a PM workflow:
 
 ```
-Discovery           Specification        Communication        Experimentation
-─────────           ─────────────        ─────────────        ───────────────
-manager-briefing    prd                  story-builder        experiment-strategy
-      ↓               ↑                       ↓                     ↓
+Discovery           Specification        Communication        Experimentation      Data
+─────────           ─────────────        ─────────────        ───────────────      ────
+manager-briefing    prd                  story-builder        experiment-strategy   data-insights
+      ↓               ↑                       ↓                     ↓              (anytime)
 interview-guide     decision ←──────→   comms-plan           experiment-design
       ↓            (anytime)                                       ↓
 interview-debrief ──→                                        experiment-review
@@ -61,6 +67,9 @@ interview-debrief ──→                                        experiment-re
 
 **Stuck on a call?**
 `decision` works anytime, for any micro-decision.
+
+**Need to understand the numbers?**
+`data-insights` works anytime — investigate a metric drop, explore user behavior, or validate a hypothesis with data.
 
 ## Document Formats
 

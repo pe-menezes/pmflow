@@ -328,3 +328,38 @@ Every question goes through a 4-point anti-bias stress test before inclusion. Th
 **Connects to**: Takes results from `experiment-design`. Program-level insights feed back into `experiment-strategy` for the next cycle.
 
 **Output format**: docx (default), md, or pdf.
+
+---
+
+## 11. Data Insights
+
+**Command**: `/pmflow:data-insights`
+
+**Purpose**: Guide a PM through exploratory data analysis — from formulating the right question to loading data, running analyses, interpreting results, and verifying accuracy. Produces actionable insights, not just charts.
+
+**When to use**:
+- Investigating a metric change ("signups dropped 15% — what's going on?")
+- Exploring user behavior ("how are people using feature X?")
+- Validating a hypothesis with data ("do power users drive referrals?")
+- Preparing for a decision ("should we invest in mobile or desktop?")
+- Understanding a dataset ("I have this CSV — help me make sense of it")
+
+**What it asks you**:
+- What are you trying to learn? (the specific question)
+- What decision will this inform? (analysis without decision context produces charts that don't lead anywhere)
+- What do you already know or suspect? (prevents "discovering" what you already know)
+- Data source: CSV upload, pasted data, or database connection
+
+**What it produces**: An insights document with:
+- Sharpened question and decision context
+- Data quality notes (what was cleaned, limitations, caveats)
+- Key findings — written as insights, not data descriptions (e.g., "Power users retain at 85% vs. 23% for casual users, suggesting session frequency is the highest-leverage retention lever" — not just the numbers)
+- Interpretation with caveats (causation vs. correlation, survivorship bias, sample size warnings)
+- Recommended actions connected to the decision
+- Suggested follow-up analyses
+
+**Key feature**: Adapts to the PM's data fluency level. For PMs new to data, it explains metrics, suggests follow-up questions, and flags common misinterpretations. For data-comfortable PMs, it skips the basics and focuses on sharpening the question, suggesting non-obvious analyses, and challenging assumptions. Includes a mandatory accuracy verification step (sanity checks, code review, alternative approaches) before presenting any conclusions.
+
+**Connects to**: Works standalone at any point in the workflow. Particularly useful alongside `experiment-design` (analyzing experiment results), `interview-debrief` (quantitative context for qualitative findings), and `prd` (data-backed problem sizing and success metrics).
+
+**Output format**: docx (default), md, or pdf.

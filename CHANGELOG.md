@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.5.0 (2026-03-13)
+
+Added new skill: **data-insights** — exploratory data analysis for PMs.
+
+- Guides the PM from formulating a sharp data question through loading/cleaning data, running analyses with visualizations, verifying accuracy, and interpreting findings in context
+- Adapts to the PM's data fluency level (new to data vs. comfortable with data)
+- Includes mandatory accuracy verification step (sanity checks, code review, alternative approaches)
+- Covers common interpretation traps: survivorship bias, Simpson's paradox, small sample fallacy, correlation vs. causation
+- Produces an actionable insights document with findings, caveats, recommended actions, and follow-up analyses
+
+Updated README.md and SKILLS.md to cover 11 skills.
+
 ## 1.4.0 (2026-03-13)
 
 Improvements to 7 existing skills based on PM best practices analysis. Prepared for open source release.
