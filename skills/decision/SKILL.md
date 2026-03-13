@@ -75,7 +75,21 @@ Always provide a clear recommendation. Structure:
 4. **Watch out for**: Biggest risk and mitigation
 5. **Reversal signal**: "Reconsider if [trigger] happens"
 
-### Step 5: Decision Record (Optional)
+### Step 5: Devil's Advocate
+
+Immediately after presenting the recommendation, argue against it. This is not optional — always do this.
+
+**"Here's the strongest case AGAINST this recommendation:"**
+
+1. **Best counter-argument**: The single most compelling reason to choose differently (2-3 sentences, steel-man the opposing view)
+2. **What you'd need to believe**: "This recommendation is wrong IF [assumption] turns out to be false"
+3. **Who would disagree and why**: Identify the stakeholder or perspective most likely to push back, and articulate their argument fairly
+
+Then ask the PM: "Does the counter-argument change anything for you, or does the recommendation still hold?"
+
+This step exists because PMs (especially early in their careers) tend to anchor on the first viable option. Forcing a steel-manned counter-argument surfaces blind spots before the decision is locked in.
+
+### Step 6: Decision Record (Optional)
 
 If the PM wants to document, produce in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
@@ -86,28 +100,48 @@ Decision maker: [name]
 Status: [Decided / Pending]
 
 ## Context
-[why this came up]
+[Why this decision came up now. What happened or changed that forced this choice. 2-3 sentences max.]
+
+## Goal
+[What outcome we're optimizing for with this decision. What does "good" look like? 1-2 sentences.]
 
 ## Options Considered
 ### Option A: [name]
 - Pros: [list]
 - Cons: [list]
+- Estimated effort/timeline: [if relevant]
+
 ### Option B: [name]
 - Pros: [list]
 - Cons: [list]
+- Estimated effort/timeline: [if relevant]
 
-## Decision
-[chosen option]
+### Options Explicitly Rejected
+[Any options considered and discarded early, with a one-line reason why. This prevents future re-litigation.]
+
+## Recommendation
+[Chosen option, stated clearly in one sentence.]
 
 ## Rationale
-[why, 2-3 sentences]
+[Why this option over the others. 2-3 sentences focusing on the primary reason. Reference the Goal above.]
+
+## Counter-argument Considered
+[The strongest case against this recommendation, from the devil's advocate step. 2-3 sentences. This shows the decision was stress-tested.]
+
+## Impact
+[What changes as a result of this decision. Who is affected. What needs to happen next.]
 
 ## Risks & Mitigation
-[main risk + plan]
+[Main risk + specific mitigation plan, not generic "we'll monitor it".]
 
 ## Reversal Signal
-[when to reconsider]
+[Specific, observable trigger that should make us reconsider: "Reconsider if [metric] drops below [threshold]" or "Revisit if [event] happens by [date]".]
+
+## Next Steps
+[Concrete actions with owners. Who does what by when.]
 ```
+
+This template is designed to be shareable with stakeholders as-is. A PM should be able to send this decision record to their manager or engineering lead and have it be self-explanatory without additional context.
 
 ## Tone
 

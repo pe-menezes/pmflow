@@ -304,6 +304,59 @@ Key adaptation notes:
 - [Follow-up commitments to honor]
 ```
 
+## Executive Writing Templates
+
+When the communications plan identifies key written communications (pre-reads, decision memos, escalation emails), offer the PM these templates as starting structures. The PM doesn't need to use them verbatim — they're scaffolding to get past the blank page.
+
+### Inverted Pyramid (for updates and announcements)
+
+Best for: status updates, product announcements, any communication where the reader might not read past the first paragraph.
+
+Structure:
+1. **Lead**: The most important information in 1-2 sentences. If the reader stops here, they have the headline.
+2. **Supporting details**: Evidence, context, and specifics that back up the lead. 3-5 sentences.
+3. **Background**: Full context for those who want to go deeper. Can be skipped by busy readers.
+
+Why it works: Busy executives read the first paragraph and decide if they need more. Front-loading the conclusion respects their time and ensures the key message always lands.
+
+### Decision Memo (for communicating or requesting decisions)
+
+Best for: sharing a decision with stakeholders, requesting approval, documenting a choice.
+
+Structure:
+1. **Context**: Why this decision came up now. What changed. 2-3 sentences max.
+2. **Goal**: What outcome we're optimizing for. 1-2 sentences.
+3. **Options considered**: Each option with pros, cons, and estimated effort. Include options that were rejected early, with a one-line reason why.
+4. **Recommendation**: The chosen option, stated clearly in one sentence.
+5. **Impact**: What changes as a result. Who is affected.
+6. **Next steps**: Concrete actions with owners and deadlines.
+
+Why it works: Executives want to see that the PM considered alternatives, has a clear recommendation, and has thought through the implications. This template shows rigorous thinking in a scannable format.
+
+### Blocker Escalation (for unblocking dependencies or raising issues)
+
+Best for: escalating a blocked workstream, requesting help from leadership, flagging a risk.
+
+Structure:
+1. **What's blocked**: The specific workstream, feature, or milestone. One sentence.
+2. **Why it's blocked**: Root cause — not symptoms. Be honest and specific.
+3. **Impact**: What happens if this stays blocked. Quantify where possible (days of delay, revenue at risk, downstream team impact).
+4. **What's been tried**: Actions already taken to unblock. This shows the PM isn't just escalating — they've done their homework.
+5. **What's needed**: The specific help or decision required. Be precise about who needs to do what.
+6. **Next steps & owner**: Who does what by when, including the PM's own actions.
+
+Why it works: Executives get escalations constantly. The ones that get acted on are the ones that clearly articulate impact and have a specific, actionable ask. Vague "we're stuck" messages get deprioritized.
+
+### When to suggest templates
+
+During Step 8 (Generate the Communications Plan), for each critical communication in the sequence, suggest the most appropriate template:
+- Pre-read for leadership pitch → Inverted Pyramid or Decision Memo
+- Escalation to unblock a dependency → Blocker Escalation
+- Post-decision communication → Inverted Pyramid
+- Resource request → Decision Memo (framed as "should we invest in X?")
+
+The templates are reference structures, not rigid forms. The PM should adapt them to their company's culture and the specific audience's communication style.
+
 ## Proactive Storytelling Modes
 
 Different phases of the product lifecycle call for different communication modes. Help the PM pick the right one:

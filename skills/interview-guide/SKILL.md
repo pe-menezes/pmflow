@@ -121,7 +121,42 @@ Include 2-3 "side trail" prompts for following unexpected but valuable threads.
 
 **Referral question**: "Who else do you know that deals with this?" or "Who else should I talk to about this?" — every interviewee is a potential source of warm introductions to the next interviewee.
 
-### Step 4: Add Conversation Quality Guardrails
+### Step 4: Stress-Test Every Question
+
+After generating the script, run EVERY question through this filter before including it. This step is mandatory — do not skip it.
+
+**For each question, ask:**
+
+1. **Does this question allow the interviewee to say the problem doesn't exist?**
+   If the question only works if the problem is real, it's a leading question. Rewrite it.
+   - Bad: "How frustrating is it when X happens?" (assumes X happens and is frustrating)
+   - Good: "Walk me through the last time you dealt with [area]." (lets them say "I don't really deal with that")
+
+2. **Is this asking about past behavior or future intention?**
+   Past behavior = strong signal. Future intention = weak signal. If the question asks "would you", "could you see yourself", or "do you think you'd" — rewrite it to ask about what they've already done.
+   - Bad: "Would you use a tool that does X?"
+   - Good: "What tools have you tried for this? What happened?"
+
+3. **Could a people-pleaser answer this honestly?**
+   Most interviewees want to be helpful and agreeable. If the path of least resistance is to say "yes" or agree with the PM, the question is poorly designed. Good questions make it equally easy to give positive or negative answers.
+   - Bad: "Is [problem] something you struggle with?" (easy to just say yes)
+   - Good: "How do you handle [area] today?" (no built-in direction)
+
+4. **Does this question fish for a specific answer?**
+   If you can predict what the "right" answer is from the PM's perspective, the interviewee can too. Rewrite to remove the implied correct response.
+   - Bad: "Do you find it hard to keep track of your tasks?" (the "right" answer is yes)
+   - Good: "How do you keep track of what you need to do?" (open-ended, no right answer)
+
+**Signal strength hierarchy** (embed this in the generated document as a reference for the interviewer):
+- **Strongest**: They already did something about it (spent money, built a workaround, changed behavior)
+- **Strong**: They describe a specific past event with concrete details and emotion
+- **Medium**: They describe a general pattern but can anchor it to a recent example
+- **Weak**: They agree the problem exists but can't give a specific example
+- **Noise**: "I would totally...", "That sounds great!", "I could see myself..."
+
+If the generated script has more than 2 questions that would score "weak" or "noise" on this hierarchy, rewrite them before finalizing.
+
+### Step 5: Add Conversation Quality Guardrails
 
 Embed these throughout the script as practical reminders for the interviewer:
 
@@ -152,7 +187,7 @@ The PM must NOT expose their ego or stake in the hypothesis. Phrases like "We're
 **Cutting off accidental pitches**
 If the PM catches themselves explaining or defending their idea, they should stop, acknowledge it ("Sorry, I got carried away — I'm here to learn from you"), and redirect back to the interviewee's experience.
 
-### Step 5: Add Pre-Interview Prep Checklist
+### Step 6: Add Pre-Interview Prep Checklist
 
 **Before each conversation, the PM should know:**
 - Their current top 3 learning goals (and which ones this specific person might help answer)
@@ -160,7 +195,7 @@ If the PM catches themselves explaining or defending their idea, they should sto
 - Basic background on this person (a quick look at their profile/role — don't waste interview time on questions you could have answered with 5 minutes of desk research)
 - Best guesses about what this person cares about (you'll probably be wrong, but having a hypothesis makes it easier to notice surprises)
 
-### Step 6: Generate the Document
+### Step 7: Generate the Document
 
 Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
@@ -219,6 +254,16 @@ Problem hypothesis: [1-2 sentences]
 
 ## Side Trail Prompts
 [follow-up questions for unexpected directions]
+
+## Signal Strength Reference
+Use this during and after the interview to classify what you're hearing:
+- **Strongest**: They already spent money, time, or effort on it (built a workaround, bought a tool, changed their process)
+- **Strong**: Specific past event with concrete details and emotion
+- **Medium**: General pattern, but they can anchor it to a recent example when asked
+- **Weak**: They agree the problem exists but can't give a specific example
+- **Noise**: "I would totally...", "That sounds great!", "I could see myself..."
+
+If most of your interview data is "weak" or "noise", the questions need to be sharper or the problem may not be real for this segment.
 
 ## Post-Interview (within 30 min)
 - Write up notes with exact quotes where possible

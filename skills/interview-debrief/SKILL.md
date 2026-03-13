@@ -178,9 +178,27 @@ Interview #: [X of Y]
 
 Run after completing all (or most) interviews.
 
-### Step 1: Gather All Debriefs
+### Step 1: Gather All Debriefs + Passive Feedback Sources
 
 Ask the PM to provide all debrief documents. If they exist in workspace, offer to read them automatically.
+
+Then ask: **"Do you have other sources of user feedback beyond the interviews?"**
+
+Passive feedback sources to ask about:
+- **NPS survey responses** (open-text comments, not just the score)
+- **App store / product reviews** (ratings + written feedback)
+- **Support tickets or customer service logs** (common complaints, frequent issues)
+- **Cancellation / churn reasons** (exit surveys, cancellation emails)
+- **Sales call notes or lost deal reasons** (why prospects didn't convert)
+- **Community feedback** (forum posts, Slack communities, social media mentions)
+
+If available, these sources are incorporated into the synthesis as additional data. Apply the **same Data Quality Framework** from Mode 1:
+- Concrete past behavior described in feedback → high confidence
+- Vague complaints without specifics ("the app is bad") → low confidence
+- Emotional language (frustration, anger) → flag as intensity signal
+- Feature requests → note the request but dig into frequency and motivation patterns
+
+**Important**: Passive feedback has different biases than interviews. It skews toward extremes — very happy or very unhappy users. The silent majority doesn't leave reviews or file tickets. Flag this bias when presenting findings: "This data over-represents users who felt strongly enough to write something."
 
 ### Step 2: 6-Step Synthesis
 
@@ -194,10 +212,11 @@ Before clustering, filter the data:
 
 **2. Cluster by Problem**
 
-Group high-confidence observations by problem type. For each cluster:
-- Frequency: How many interviewees mentioned this? (count only concrete instances, not hypothetical agreement)
+Group high-confidence observations by problem type, combining interview data AND passive feedback sources. For each cluster:
+- Frequency: How many interviewees mentioned this? (count only concrete instances, not hypothetical agreement). If passive feedback is available, add: "Also mentioned in [X] support tickets / [Y] reviews / [Z] NPS comments."
 - Intensity: How strong were the emotions? How much time/money are they losing?
 - Existing behavior: What workarounds have people built? (People who have already cobbled together solutions are the strongest signal — they care enough to act)
+- Cross-source validation: Does this problem show up in BOTH interviews AND passive feedback? If yes, that's a much stronger signal than either source alone. If it only shows up in passive feedback but never in interviews, investigate why — the PM may not be asking about it, or the interview audience may be different from the feedback audience.
 
 Identify most frequent, most intense, most unexpected, and outlier findings.
 

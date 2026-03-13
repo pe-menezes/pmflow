@@ -171,20 +171,53 @@ For each solution, briefly note what it changes about the user experience and wh
 - **Minority report**: Design the solution for the 5% edge-case user — what do you learn about the mainstream experience?
 - **Table flip**: What would you build if you had to start the product from scratch today?
 
-#### Step 7: Apply the User Psychology Framework
+#### Step 7: Apply Behavioral Lenses
 
-For each solution, evaluate how it manages user psychology:
+For each solution, evaluate it through four behavioral lenses. Tag every solution with which lens(es) it uses — this forces the PM to think beyond "add feature" and consider behavioral levers.
 
-**Reducing negative friction:**
+**Lens 1: Friction Reduction** — Where does the user give up or get stuck?
+
 - *Physical friction*: How many steps, clicks, fields, screens? Can any be removed?
 - *Cognitive friction*: How much thinking is required? Can choices be simplified, defaults set, information chunked?
+- *Emotional friction*: Does the user feel anxious, confused, or uncertain at any point? Can you reduce that feeling? (e.g., adding reassurance, showing progress, setting expectations)
+- *Access friction*: Can the user even find the thing? Is it buried in navigation, behind too many clicks, or only available at the wrong moment?
 
-**Amplifying positive motivation:**
-- *Emotional triggers*: Does the solution create anticipation, curiosity, delight, or relief?
-- *Rewards*: Does the user get immediate feedback, progress indicators, or a sense of accomplishment?
-- *Motivational boosts*: Does the solution leverage social proof, scarcity, commitment, reciprocity, or authority?
+Key question: "If I watched a user try this, where would they hesitate, second-guess, or abandon?"
 
-Solutions that only reduce friction tend to produce incremental gains. Solutions that also amplify motivation tend to produce breakthrough results.
+**Lens 2: Motivation Triggers** — What makes the user act now instead of later (or never)?
+
+- *Loss aversion*: What does the user lose by NOT acting? (Missed opportunity, expiring offer, falling behind peers.) Framing around what's lost is often more powerful than what's gained.
+- *Progress & momentum*: Does the user feel like they're making progress? (Progress bars, streaks, milestones, "you're 80% done".) People who feel momentum are more likely to continue.
+- *Curiosity gaps*: Does the experience create a question the user wants answered? ("See how you compare", "Your results are ready", "3 people viewed your profile.") Unanswered questions pull users forward.
+- *Immediate value*: Does the user get something useful in the first interaction? (Not a tour of features — actual value.) The faster users experience value, the more likely they are to return.
+
+Key question: "Why would the user do this NOW instead of putting it off?"
+
+**Lens 3: Social Influence** — How do other people affect the user's behavior?
+
+- *Social proof*: Can the user see that others like them have done this? (Usage stats, testimonials, "X people did this today.") Especially powerful for uncertain users.
+- *Social accountability*: Does the user's action become visible to others? (Shared goals, public commitments, team dashboards.) Visibility creates follow-through.
+- *Network effects*: Does the experience get better as more people use it? If so, how can you make that visible to the user?
+- *Referral triggers*: Are there natural moments where the user would want to bring someone else in? (Sharing a result, needing a collaborator, showing off an achievement.)
+
+Key question: "How do other people make this experience more valuable or more compelling?"
+
+**Lens 4: Habit Formation** — How does a one-time action become a repeated behavior?
+
+- *Trigger reliability*: What reminds the user to come back? (External: notifications, emails, calendar events. Internal: boredom, anxiety, curiosity, habit.) Internal triggers are stronger but take time to build.
+- *Variable reward*: Is there something slightly different or surprising each time? (New content, updated data, social activity.) Predictable experiences are easy to skip.
+- *Investment*: Does the user put something into the product that makes it harder to leave? (Data, preferences, connections, content, reputation.) The more they invest, the stickier it becomes.
+- *Routine fit*: Does this fit into an existing routine or require creating a new one? (Fitting into existing behavior is 10x easier than creating new habits.)
+
+Key question: "What would make the user come back tomorrow without being asked?"
+
+**How to use the lenses during ideation:**
+
+After generating solutions in Step 6, tag each one:
+- Which lens(es) does it primarily leverage?
+- Are there lenses that NO solution in the portfolio uses?
+
+If the entire solution portfolio is just "friction reduction" (remove steps, simplify UI), push the PM to generate at least 1-2 solutions that use motivation triggers, social influence, or habit formation. Friction reduction alone tends to produce incremental gains. Solutions that combine friction reduction with a motivation or social lever tend to produce breakthrough results.
 
 #### Step 8: Evaluate and Prioritize Solutions
 

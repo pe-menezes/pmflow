@@ -98,7 +98,35 @@ Each requirement gets: priority (must-have vs. nice-to-have) and acceptance crit
 - Unresolved items needing input
 - Blocked decisions and by whom
 
-### Step 3: Generate the Document
+### Step 3: Consistency Check
+
+Before generating the final document, validate the PRD against prior artifacts. This step catches contradictions before they reach design and engineering.
+
+**If a manager briefing exists**, check:
+- Does the PRD's problem statement match the user value hypothesis from the briefing?
+- Are the success metrics aligned with the business value the manager identified?
+- Does the strategic context in the PRD match the strategic fit from the briefing?
+- If there are mismatches, they're not necessarily wrong — the PM may have learned something new. But flag them explicitly: "Your PRD says [X], but the manager briefing said [Y]. Is this an intentional update based on what you learned, or an inconsistency to resolve?"
+
+**If interview synthesis or User Value Map exists**, check:
+- Does the problem statement reflect what users actually said, or what the PM hoped they'd say?
+- Is the target audience consistent with where the strongest signal came from in the interviews?
+- Are there interview findings that contradict the proposed solution? (e.g., users described the problem differently than the PRD frames it)
+- Did the interviews surface severity evidence that should appear in the PRD's strategic context?
+
+**If experiment results exist**, check:
+- Do the success metrics account for learnings from past experiments?
+- Is the proposed solution consistent with what was validated?
+
+**Internal consistency check** (always run, even without prior artifacts):
+- Does every functional requirement trace back to the problem statement? If a requirement doesn't connect to the stated problem, it's either scope creep or the problem statement is incomplete.
+- Do the success metrics actually measure whether the problem was solved? (Not just whether the feature was shipped or used)
+- Is anything in "anti-scope" that contradicts a must-have requirement?
+- Are there risks listed without mitigation plans?
+
+Present all inconsistencies to the PM before generating the document. Let them resolve each one — update the PRD, update the prior artifact, or acknowledge the deliberate change.
+
+### Step 4: Generate the Document
 
 Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 

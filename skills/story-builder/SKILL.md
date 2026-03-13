@@ -210,7 +210,30 @@ Format:
 
 This elevator pitch is also the backbone for reactive storytelling — when the PM gets asked "What's your team working on?" in an unexpected moment.
 
-### Step 7: Generate the Story Document
+### Step 7: Simulate Audience Reaction
+
+After building the story, simulate how the key decision-maker will receive it. This is different from the generic Q&A prep — it's personalized to a specific person.
+
+Ask the PM: **"Who is the primary decision-maker that needs to say yes? Tell me about them — their role, what they care about, their communication style, and any known concerns or biases."**
+
+Then simulate that person's reaction:
+
+**1. First impression**: What's the first thing this person will think when they hear the elevator pitch? What grabs them? What makes them skeptical?
+
+**2. Top 3 objections**: Based on what we know about this person's priorities and concerns, what are the three most likely pushbacks? For each:
+- The objection, phrased in the decision-maker's voice
+- Why they'd raise it (what underlying concern it reflects)
+- How to address it within the story (not as a defensive answer, but by strengthening the narrative itself)
+
+**3. What they need to hear to say yes**: What specific evidence, framing, or commitment would tip this person from "interesting" to "approved"? This might be a metric, a risk mitigation, a timeline, or connecting to something they've publicly championed.
+
+**4. What to avoid**: Language, framing, or asks that would trigger a negative reaction from this specific person. (e.g., "Don't use the word 'experiment' with this VP — they interpret it as 'we don't know what we're doing'. Use 'structured validation' instead.")
+
+After presenting the simulation, ask the PM: **"Does this match your read of this person? Anything to adjust?"** Then refine the story structure and Q&A based on the simulation.
+
+If the PM has multiple key decision-makers, run a brief simulation for each (top 2 objections per person, not the full framework).
+
+### Step 8: Generate the Story Document
 
 Produce the document in the user's chosen format (default: docx). If docx, use the docx skill. If pdf, use the pdf skill. If md, write as markdown. Use the following structure:
 
@@ -271,8 +294,18 @@ Author: [PM name]
 ### Believable (reducing risk)
 - [ ] [data, research, experiment results, financial model, competitive examples]
 
+## Audience Simulation
+### Primary decision-maker: [name / role]
+- First impression: [what grabs them, what makes them skeptical]
+- Top objections:
+  1. [objection in their voice] → [how the story addresses it]
+  2. [objection in their voice] → [how the story addresses it]
+  3. [objection in their voice] → [how the story addresses it]
+- What they need to hear to say yes: [specific evidence or framing]
+- What to avoid: [language or framing that would trigger a negative reaction]
+
 ## Q&A Prep
-[Anticipate the 5-7 toughest questions leadership or the team might ask, with prepared answers]
+[Anticipate the 5-7 toughest questions — informed by the audience simulation above]
 
 1. **[Question]** → [Answer]
 2. **[Question]** → [Answer]
